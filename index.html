@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutionsPro | Freelance Simulator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <section class="hero-tech-banner">
+            <div class="banner-overlay"></div>
+            <div class="banner-content">
+                <div class="store-logo-neon">
+                    <div class="neon-circle">
+                        <div class="neon-dot"></div>
+                    </div>
+                </div>
+                <div class="banner-text">
+                    <h2>TechSolutions <span class="pulse-text">Pro</span></h2>
+                    <p>Arquitetura de Software & Desenvolvimento Full Stack.</p>
+                    <p class="sub-text">Transformando conceitos complexos em código de alta performance.</p>
+                </div>
+            </div>
+        </section>
+
+        <main>
+            <div class="services-grid">
+                <div class="card" data-price="1500.00">
+                    <h3>Landing Page</h3>
+                    <p>Desenvolvimento responsivo e otimizado.</p>
+                    <span class="price">R$ 1.500</span>
+                    <button class="btn-add" onclick="adicionarServico(this)">Adicionar</button>
+                </div>
+
+                <div class="card" data-price="3500.00">
+                    <h3>E-commerce</h3>
+                    <p>Loja completa com integração de pagamentos.</p>
+                    <span class="price">R$ 3.500</span>
+                    <button class="btn-add" onclick="adicionarServico(this)">Adicionar</button>
+                </div>
+
+                <div class="card" data-price="1200.00">
+                    <h3>Integração de API</h3>
+                    <p>Conexão segura -> sistemas e dados.</p>
+                    <span class="price">R$ 1.200</span>
+                    <button class="btn-add" onclick="adicionarServico(this)">Adicionar</button>
+                </div>
+
+                <div class="card" data-price="500.00">
+                    <h3>Manutenção Mensal</h3>
+                    <p>Suporte, backup e atualizações críticas.</p>
+                    <span class="price">R$ 500</span>
+                    <button class="btn-add" onclick="adicionarServico(this)">Adicionar</button>
+                </div>
+            </div>
+
+            <div class="total-box">
+                <h2>Total Estimado: <span id="valor-total">R$ 0,00</span></h2>
+                <button class="btn-reset" onclick="resetar()">Limpar Tudo</button>
+            </div>
+
+            <hr class="separator">
+
+            <section class="contact-section">
+                <h3>Nossos Canais</h3>
+                <div class="social-grid">
+                    <a href="https://www.linkedin.com/in/joao-elias10/" target="_blank" class="social-item">
+                        <i class="fab fa-linkedin-in"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/joaoelias10" target="_blank" class="social-item">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://www.instagram.com/joao.elias06/" target="_blank" class="social-item">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="total-section">
+            <p style="margin: 0;">&copy; 2026 TechSolutions. Todos os direitos reservados.</p>
+        </footer>
+        <script src="script.js"></script>
+</body>
+
+</html>
